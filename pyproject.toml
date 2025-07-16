@@ -15,7 +15,7 @@ packages = [{ include = "beaker" }]
 python = "^3.10"
 pyteal = "^0.26.1"
 py-algorand-sdk = ">=2.5.0"
-algokit-utils = "^2.2.1"
+algokit-utils = "^4.1.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2.0"
@@ -27,6 +27,7 @@ pip-audit = "^2.4.12"
 pytest-xdist = "^3.1.0"
 ruff = "^0.0.252"
 black = "^24.8.0"
+pytest-sugar = "^1.0.0"
 
 [tool.poetry.group.docs.dependencies]
 sphinx = "~5.0.2"

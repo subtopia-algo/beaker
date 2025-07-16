@@ -1,101 +1,101 @@
 {
-    "hints": {
-        "opt_in_to_asset(asset)void": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        },
-        "return_asset(asset,account)void": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        }
+  "hints": {
+    "opt_in_to_asset(asset)void": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgNApieXRlY2Jsb2NrIDB4NjE3Mzc2IDB4NjE2MzczNzYKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDYKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHgyNTc2OTg0ZSAvLyAib3B0X2luX3RvX2Fzc2V0KGFzc2V0KXZvaWQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4NDcxNzc4NmQgLy8gInJldHVybl9hc3NldChhc3NldCxhY2NvdW50KXZvaWQiCj09CmJueiBtYWluX2w0CmVycgptYWluX2w0Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CiYmCmFzc2VydApjYWxsc3ViIHJldHVybmFzc2V0Y2FzdGVyXzEKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDU6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgb3B0aW50b2Fzc2V0Y2FzdGVyXzAKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KYm56IG1haW5fbDEwCnR4biBPbkNvbXBsZXRpb24KaW50Y18xIC8vIE9wdEluCj09CmJueiBtYWluX2w5CmVycgptYWluX2w5Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBvcHRpbl8zCmludGNfMSAvLyAxCnJldHVybgptYWluX2wxMDoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlXzIKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBvcHRfaW5fdG9fYXNzZXRfY2FzdGVyCm9wdGludG9hc3NldGNhc3Rlcl8wOgpwcm90byAwIDAKaW50Y18wIC8vIDAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQppbnRjXzAgLy8gMApnZXRieXRlCmZyYW1lX2J1cnkgMApmcmFtZV9kaWcgMApjYWxsc3ViIG9wdGludG9hc3NldF80CnJldHN1YgoKLy8gcmV0dXJuX2Fzc2V0X2Nhc3RlcgpyZXR1cm5hc3NldGNhc3Rlcl8xOgpwcm90byAwIDAKaW50Y18wIC8vIDAKZHVwCnR4bmEgQXBwbGljYXRpb25BcmdzIDEKaW50Y18wIC8vIDAKZ2V0Ynl0ZQpmcmFtZV9idXJ5IDAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgppbnRjXzAgLy8gMApnZXRieXRlCmZyYW1lX2J1cnkgMQpmcmFtZV9kaWcgMApmcmFtZV9kaWcgMQpjYWxsc3ViIHJldHVybmFzc2V0XzUKcmV0c3ViCgovLyBjcmVhdGUKY3JlYXRlXzI6CnByb3RvIDAgMApieXRlY18wIC8vICJhc3YiCmJ5dGVjXzAgLy8gImFzdiIKYXBwX2dsb2JhbF9wdXQKcmV0c3ViCgovLyBvcHRfaW4Kb3B0aW5fMzoKcHJvdG8gMCAwCnR4biBTZW5kZXIKYnl0ZWNfMSAvLyAiYWNzdiIKYnl0ZWNfMSAvLyAiYWNzdiIKYXBwX2xvY2FsX3B1dApyZXRzdWIKCi8vIG9wdF9pbl90b19hc3NldApvcHRpbnRvYXNzZXRfNDoKcHJvdG8gMSAwCml0eG5fYmVnaW4KaW50Y18yIC8vIGF4ZmVyCml0eG5fZmllbGQgVHlwZUVudW0KZnJhbWVfZGlnIC0xCnR4bmFzIEFzc2V0cwppdHhuX2ZpZWxkIFhmZXJBc3NldApnbG9iYWwgQ3VycmVudEFwcGxpY2F0aW9uQWRkcmVzcwppdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBGZWUKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBBc3NldEFtb3VudAppdHhuX3N1Ym1pdApyZXRzdWIKCi8vIHJldHVybl9hc3NldApyZXR1cm5hc3NldF81Ogpwcm90byAyIDAKaXR4bl9iZWdpbgppbnRjXzIgLy8gYXhmZXIKaXR4bl9maWVsZCBUeXBlRW51bQpmcmFtZV9kaWcgLTIKdHhuYXMgQXNzZXRzCml0eG5fZmllbGQgWGZlckFzc2V0CmZyYW1lX2RpZyAtMQp0eG5hcyBBY2NvdW50cwppdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBGZWUKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBBc3NldEFtb3VudApmcmFtZV9kaWcgLTEKdHhuYXMgQWNjb3VudHMKaXR4bl9maWVsZCBBc3NldENsb3NlVG8KaXR4bl9zdWJtaXQKcmV0c3Vi",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
-    },
-    "state": {
-        "global": {
-            "num_byte_slices": 2,
-            "num_uints": 0
-        },
-        "local": {
-            "num_byte_slices": 2,
-            "num_uints": 0
-        }
-    },
-    "schema": {
-        "global": {
-            "declared": {
-                "asv": {
-                    "type": "bytes",
-                    "key": "asv",
-                    "descr": ""
-                }
-            },
-            "reserved": {
-                "rasv": {
-                    "type": "bytes",
-                    "max_keys": 1,
-                    "descr": ""
-                }
-            }
-        },
-        "local": {
-            "declared": {
-                "acsv": {
-                    "type": "bytes",
-                    "key": "acsv",
-                    "descr": ""
-                }
-            },
-            "reserved": {
-                "racsv": {
-                    "type": "bytes",
-                    "max_keys": 1,
-                    "descr": ""
-                }
-            }
-        }
-    },
-    "contract": {
-        "name": "C2CSub",
-        "methods": [
-            {
-                "name": "opt_in_to_asset",
-                "args": [
-                    {
-                        "type": "asset",
-                        "name": "asset"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            },
-            {
-                "name": "return_asset",
-                "args": [
-                    {
-                        "type": "asset",
-                        "name": "asset"
-                    },
-                    {
-                        "type": "account",
-                        "name": "addr"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            }
-        ],
-        "networks": {},
-        "desc": "Sub application whose only purpose is to opt into then close out of an asset"
-    },
-    "bare_call_config": {
-        "no_op": "CREATE",
-        "opt_in": "CALL"
+    "return_asset(asset,account)void": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgNApieXRlY2Jsb2NrIDB4NjE3Mzc2IDB4NjE2MzczNzYKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDYKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHgyNTc2OTg0ZSAvLyAib3B0X2luX3RvX2Fzc2V0KGFzc2V0KXZvaWQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4NDcxNzc4NmQgLy8gInJldHVybl9hc3NldChhc3NldCxhY2NvdW50KXZvaWQiCj09CmJueiBtYWluX2w0CmVycgptYWluX2w0Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CiYmCmFzc2VydApjYWxsc3ViIHJldHVybmFzc2V0Y2FzdGVyXzEKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDU6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgb3B0aW50b2Fzc2V0Y2FzdGVyXzAKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KYm56IG1haW5fbDEwCnR4biBPbkNvbXBsZXRpb24KaW50Y18xIC8vIE9wdEluCj09CmJueiBtYWluX2w5CmVycgptYWluX2w5Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBvcHRpbl8zCmludGNfMSAvLyAxCnJldHVybgptYWluX2wxMDoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlXzIKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBvcHRfaW5fdG9fYXNzZXRfY2FzdGVyCm9wdGludG9hc3NldGNhc3Rlcl8wOgpwcm90byAwIDAKaW50Y18wIC8vIDAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQppbnRjXzAgLy8gMApnZXRieXRlCmZyYW1lX2J1cnkgMApmcmFtZV9kaWcgMApjYWxsc3ViIG9wdGludG9hc3NldF80CnJldHN1YgoKLy8gcmV0dXJuX2Fzc2V0X2Nhc3RlcgpyZXR1cm5hc3NldGNhc3Rlcl8xOgpwcm90byAwIDAKaW50Y18wIC8vIDAKZHVwCnR4bmEgQXBwbGljYXRpb25BcmdzIDEKaW50Y18wIC8vIDAKZ2V0Ynl0ZQpmcmFtZV9idXJ5IDAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgppbnRjXzAgLy8gMApnZXRieXRlCmZyYW1lX2J1cnkgMQpmcmFtZV9kaWcgMApmcmFtZV9kaWcgMQpjYWxsc3ViIHJldHVybmFzc2V0XzUKcmV0c3ViCgovLyBjcmVhdGUKY3JlYXRlXzI6CnByb3RvIDAgMApieXRlY18wIC8vICJhc3YiCmJ5dGVjXzAgLy8gImFzdiIKYXBwX2dsb2JhbF9wdXQKcmV0c3ViCgovLyBvcHRfaW4Kb3B0aW5fMzoKcHJvdG8gMCAwCnR4biBTZW5kZXIKYnl0ZWNfMSAvLyAiYWNzdiIKYnl0ZWNfMSAvLyAiYWNzdiIKYXBwX2xvY2FsX3B1dApyZXRzdWIKCi8vIG9wdF9pbl90b19hc3NldApvcHRpbnRvYXNzZXRfNDoKcHJvdG8gMSAwCml0eG5fYmVnaW4KaW50Y18yIC8vIGF4ZmVyCml0eG5fZmllbGQgVHlwZUVudW0KZnJhbWVfZGlnIC0xCnR4bmFzIEFzc2V0cwppdHhuX2ZpZWxkIFhmZXJBc3NldApnbG9iYWwgQ3VycmVudEFwcGxpY2F0aW9uQWRkcmVzcwppdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBGZWUKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBBc3NldEFtb3VudAppdHhuX3N1Ym1pdApyZXRzdWIKCi8vIHJldHVybl9hc3NldApyZXR1cm5hc3NldF81Ogpwcm90byAyIDAKaXR4bl9iZWdpbgppbnRjXzIgLy8gYXhmZXIKaXR4bl9maWVsZCBUeXBlRW51bQpmcmFtZV9kaWcgLTIKdHhuYXMgQXNzZXRzCml0eG5fZmllbGQgWGZlckFzc2V0CmZyYW1lX2RpZyAtMQp0eG5hcyBBY2NvdW50cwppdHhuX2ZpZWxkIEFzc2V0UmVjZWl2ZXIKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBGZWUKaW50Y18wIC8vIDAKaXR4bl9maWVsZCBBc3NldEFtb3VudApmcmFtZV9kaWcgLTEKdHhuYXMgQWNjb3VudHMKaXR4bl9maWVsZCBBc3NldENsb3NlVG8KaXR4bl9zdWJtaXQKcmV0c3Vi",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 2,
+      "num_uints": 0
+    },
+    "local": {
+      "num_byte_slices": 2,
+      "num_uints": 0
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {
+        "asv": {
+          "type": "bytes",
+          "key": "asv",
+          "descr": ""
+        }
+      },
+      "reserved": {
+        "rasv": {
+          "type": "bytes",
+          "max_keys": 1,
+          "descr": ""
+        }
+      }
+    },
+    "local": {
+      "declared": {
+        "acsv": {
+          "type": "bytes",
+          "key": "acsv",
+          "descr": ""
+        }
+      },
+      "reserved": {
+        "racsv": {
+          "type": "bytes",
+          "max_keys": 1,
+          "descr": ""
+        }
+      }
+    }
+  },
+  "contract": {
+    "name": "C2CSub",
+    "methods": [
+      {
+        "name": "opt_in_to_asset",
+        "args": [
+          {
+            "type": "asset",
+            "name": "asset"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "return_asset",
+        "args": [
+          {
+            "type": "asset",
+            "name": "asset"
+          },
+          {
+            "type": "account",
+            "name": "addr"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      }
+    ],
+    "networks": {},
+    "desc": "Sub application whose only purpose is to opt into then close out of an asset"
+  },
+  "bare_call_config": {
+    "no_op": "CREATE",
+    "opt_in": "CALL"
+  }
 }

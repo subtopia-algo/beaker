@@ -1,35 +1,35 @@
 {
-    "name": "C2CSub",
-    "methods": [
+  "name": "C2CSub",
+  "methods": [
+    {
+      "name": "opt_in_to_asset",
+      "args": [
         {
-            "name": "opt_in_to_asset",
-            "args": [
-                {
-                    "type": "asset",
-                    "name": "asset"
-                }
-            ],
-            "returns": {
-                "type": "void"
-            }
+          "type": "asset",
+          "name": "asset"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "return_asset",
+      "args": [
+        {
+          "type": "asset",
+          "name": "asset"
         },
         {
-            "name": "return_asset",
-            "args": [
-                {
-                    "type": "asset",
-                    "name": "asset"
-                },
-                {
-                    "type": "account",
-                    "name": "addr"
-                }
-            ],
-            "returns": {
-                "type": "void"
-            }
+          "type": "account",
+          "name": "addr"
         }
-    ],
-    "networks": {},
-    "desc": "Sub application whose only purpose is to opt into then close out of an asset"
+      ],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "networks": {},
+  "desc": "Sub application whose only purpose is to opt into then close out of an asset"
 }

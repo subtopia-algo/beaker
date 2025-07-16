@@ -1,18 +1,18 @@
 {
-    "name": "ExternalExample",
-    "methods": [
+  "name": "ExternalExample",
+  "methods": [
+    {
+      "name": "create",
+      "args": [
         {
-            "name": "create",
-            "args": [
-                {
-                    "type": "string",
-                    "name": "input"
-                }
-            ],
-            "returns": {
-                "type": "string"
-            }
+          "type": "string",
+          "name": "input"
         }
-    ],
-    "networks": {}
+      ],
+      "returns": {
+        "type": "string"
+      }
+    }
+  ],
+  "networks": {}
 }

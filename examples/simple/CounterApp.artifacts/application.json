@@ -1,69 +1,69 @@
 {
-    "hints": {
-        "increment()uint64": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        },
-        "decrement()uint64": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        }
+  "hints": {
+    "increment()uint64": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEKYnl0ZWNibG9jayAweDYzNmY3NTZlNzQ2NTcyIDB4MTUxZjdjNzUKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDYKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHg0YTMyNTkwMSAvLyAiaW5jcmVtZW50KCl1aW50NjQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4ZGFlNmU0Y2UgLy8gImRlY3JlbWVudCgpdWludDY0Igo9PQpibnogbWFpbl9sNAplcnIKbWFpbl9sNDoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBkZWNyZW1lbnRjYXN0ZXJfMQppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNToKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBpbmNyZW1lbnRjYXN0ZXJfMAppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNjoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQpibnogbWFpbl9sOAplcnIKbWFpbl9sODoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmludGNfMSAvLyAxCnJldHVybgoKLy8gaW5jcmVtZW50X2Nhc3RlcgppbmNyZW1lbnRjYXN0ZXJfMDoKcHJvdG8gMCAwCmludGNfMCAvLyAwCmNhbGxzdWIgaW5jcmVtZW50XzIKZnJhbWVfYnVyeSAwCmJ5dGVjXzEgLy8gMHgxNTFmN2M3NQpmcmFtZV9kaWcgMAppdG9iCmNvbmNhdApsb2cKcmV0c3ViCgovLyBkZWNyZW1lbnRfY2FzdGVyCmRlY3JlbWVudGNhc3Rlcl8xOgpwcm90byAwIDAKaW50Y18wIC8vIDAKY2FsbHN1YiBkZWNyZW1lbnRfMwpmcmFtZV9idXJ5IDAKYnl0ZWNfMSAvLyAweDE1MWY3Yzc1CmZyYW1lX2RpZyAwCml0b2IKY29uY2F0CmxvZwpyZXRzdWIKCi8vIGluY3JlbWVudAppbmNyZW1lbnRfMjoKcHJvdG8gMCAxCmludGNfMCAvLyAwCnR4biBTZW5kZXIKZ2xvYmFsIENyZWF0b3JBZGRyZXNzCj09Ci8vIHVuYXV0aG9yaXplZAphc3NlcnQKYnl0ZWNfMCAvLyAiY291bnRlciIKYnl0ZWNfMCAvLyAiY291bnRlciIKYXBwX2dsb2JhbF9nZXQKaW50Y18xIC8vIDEKKwphcHBfZ2xvYmFsX3B1dApieXRlY18wIC8vICJjb3VudGVyIgphcHBfZ2xvYmFsX2dldApmcmFtZV9idXJ5IDAKcmV0c3ViCgovLyBkZWNyZW1lbnQKZGVjcmVtZW50XzM6CnByb3RvIDAgMQppbnRjXzAgLy8gMAp0eG4gU2VuZGVyCmdsb2JhbCBDcmVhdG9yQWRkcmVzcwo9PQovLyB1bmF1dGhvcml6ZWQKYXNzZXJ0CmJ5dGVjXzAgLy8gImNvdW50ZXIiCmJ5dGVjXzAgLy8gImNvdW50ZXIiCmFwcF9nbG9iYWxfZ2V0CmludGNfMSAvLyAxCi0KYXBwX2dsb2JhbF9wdXQKYnl0ZWNfMCAvLyAiY291bnRlciIKYXBwX2dsb2JhbF9nZXQKZnJhbWVfYnVyeSAwCnJldHN1Yg==",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
-    },
-    "state": {
-        "global": {
-            "num_byte_slices": 0,
-            "num_uints": 1
-        },
-        "local": {
-            "num_byte_slices": 0,
-            "num_uints": 0
-        }
-    },
-    "schema": {
-        "global": {
-            "declared": {
-                "counter": {
-                    "type": "uint64",
-                    "key": "counter",
-                    "descr": "A counter for showing how to use application state"
-                }
-            },
-            "reserved": {}
-        },
-        "local": {
-            "declared": {},
-            "reserved": {}
-        }
-    },
-    "contract": {
-        "name": "CounterApp",
-        "methods": [
-            {
-                "name": "increment",
-                "args": [],
-                "returns": {
-                    "type": "uint64"
-                },
-                "desc": "increment the counter"
-            },
-            {
-                "name": "decrement",
-                "args": [],
-                "returns": {
-                    "type": "uint64"
-                },
-                "desc": "decrement the counter"
-            }
-        ],
-        "networks": {}
-    },
-    "bare_call_config": {
-        "no_op": "CREATE"
+    "decrement()uint64": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEKYnl0ZWNibG9jayAweDYzNmY3NTZlNzQ2NTcyIDB4MTUxZjdjNzUKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDYKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHg0YTMyNTkwMSAvLyAiaW5jcmVtZW50KCl1aW50NjQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4ZGFlNmU0Y2UgLy8gImRlY3JlbWVudCgpdWludDY0Igo9PQpibnogbWFpbl9sNAplcnIKbWFpbl9sNDoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBkZWNyZW1lbnRjYXN0ZXJfMQppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNToKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBpbmNyZW1lbnRjYXN0ZXJfMAppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNjoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQpibnogbWFpbl9sOAplcnIKbWFpbl9sODoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmludGNfMSAvLyAxCnJldHVybgoKLy8gaW5jcmVtZW50X2Nhc3RlcgppbmNyZW1lbnRjYXN0ZXJfMDoKcHJvdG8gMCAwCmludGNfMCAvLyAwCmNhbGxzdWIgaW5jcmVtZW50XzIKZnJhbWVfYnVyeSAwCmJ5dGVjXzEgLy8gMHgxNTFmN2M3NQpmcmFtZV9kaWcgMAppdG9iCmNvbmNhdApsb2cKcmV0c3ViCgovLyBkZWNyZW1lbnRfY2FzdGVyCmRlY3JlbWVudGNhc3Rlcl8xOgpwcm90byAwIDAKaW50Y18wIC8vIDAKY2FsbHN1YiBkZWNyZW1lbnRfMwpmcmFtZV9idXJ5IDAKYnl0ZWNfMSAvLyAweDE1MWY3Yzc1CmZyYW1lX2RpZyAwCml0b2IKY29uY2F0CmxvZwpyZXRzdWIKCi8vIGluY3JlbWVudAppbmNyZW1lbnRfMjoKcHJvdG8gMCAxCmludGNfMCAvLyAwCnR4biBTZW5kZXIKZ2xvYmFsIENyZWF0b3JBZGRyZXNzCj09Ci8vIHVuYXV0aG9yaXplZAphc3NlcnQKYnl0ZWNfMCAvLyAiY291bnRlciIKYnl0ZWNfMCAvLyAiY291bnRlciIKYXBwX2dsb2JhbF9nZXQKaW50Y18xIC8vIDEKKwphcHBfZ2xvYmFsX3B1dApieXRlY18wIC8vICJjb3VudGVyIgphcHBfZ2xvYmFsX2dldApmcmFtZV9idXJ5IDAKcmV0c3ViCgovLyBkZWNyZW1lbnQKZGVjcmVtZW50XzM6CnByb3RvIDAgMQppbnRjXzAgLy8gMAp0eG4gU2VuZGVyCmdsb2JhbCBDcmVhdG9yQWRkcmVzcwo9PQovLyB1bmF1dGhvcml6ZWQKYXNzZXJ0CmJ5dGVjXzAgLy8gImNvdW50ZXIiCmJ5dGVjXzAgLy8gImNvdW50ZXIiCmFwcF9nbG9iYWxfZ2V0CmludGNfMSAvLyAxCi0KYXBwX2dsb2JhbF9wdXQKYnl0ZWNfMCAvLyAiY291bnRlciIKYXBwX2dsb2JhbF9nZXQKZnJhbWVfYnVyeSAwCnJldHN1Yg==",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 0,
+      "num_uints": 1
+    },
+    "local": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {
+        "counter": {
+          "type": "uint64",
+          "key": "counter",
+          "descr": "A counter for showing how to use application state"
+        }
+      },
+      "reserved": {}
+    },
+    "local": {
+      "declared": {},
+      "reserved": {}
+    }
+  },
+  "contract": {
+    "name": "CounterApp",
+    "methods": [
+      {
+        "name": "increment",
+        "args": [],
+        "returns": {
+          "type": "uint64"
+        },
+        "desc": "increment the counter"
+      },
+      {
+        "name": "decrement",
+        "args": [],
+        "returns": {
+          "type": "uint64"
+        },
+        "desc": "decrement the counter"
+      }
+    ],
+    "networks": {}
+  },
+  "bare_call_config": {
+    "no_op": "CREATE"
+  }
 }

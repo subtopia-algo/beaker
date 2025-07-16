@@ -1,37 +1,37 @@
 {
-    "name": "Nicknames",
-    "methods": [
+  "name": "Nicknames",
+  "methods": [
+    {
+      "name": "set_manager",
+      "args": [
         {
-            "name": "set_manager",
-            "args": [
-                {
-                    "type": "address",
-                    "name": "new_manager"
-                }
-            ],
-            "returns": {
-                "type": "void"
-            }
-        },
-        {
-            "name": "set_nick",
-            "args": [
-                {
-                    "type": "string",
-                    "name": "nick"
-                }
-            ],
-            "returns": {
-                "type": "void"
-            }
-        },
-        {
-            "name": "get_nick",
-            "args": [],
-            "returns": {
-                "type": "string"
-            }
+          "type": "address",
+          "name": "new_manager"
         }
-    ],
-    "networks": {}
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "set_nick",
+      "args": [
+        {
+          "type": "string",
+          "name": "nick"
+        }
+      ],
+      "returns": {
+        "type": "void"
+      }
+    },
+    {
+      "name": "get_nick",
+      "args": [],
+      "returns": {
+        "type": "string"
+      }
+    }
+  ],
+  "networks": {}
 }

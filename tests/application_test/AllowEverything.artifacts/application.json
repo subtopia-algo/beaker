@@ -1,57 +1,57 @@
 {
-    "hints": {
-        "abi()void": {
-            "call_config": {
-                "close_out": "ALL",
-                "delete_application": "ALL",
-                "no_op": "ALL",
-                "opt_in": "ALL",
-                "update_application": "ALL"
-            }
-        }
-    },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxIDAKdHhuIE51bUFwcEFyZ3MKaW50Y18xIC8vIDAKPT0KYm56IG1haW5fbDQKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHg5ZGE5YjRiOCAvLyAiYWJpKCl2b2lkIgo9PQpibnogbWFpbl9sMwplcnIKbWFpbl9sMzoKY2FsbHN1YiBhYmljYXN0ZXJfMgppbnRjXzAgLy8gMQpyZXR1cm4KbWFpbl9sNDoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzEgLy8gTm9PcAo9PQpibnogbWFpbl9sMTQKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gT3B0SW4KPT0KYm56IG1haW5fbDEzCnR4biBPbkNvbXBsZXRpb24KcHVzaGludCAyIC8vIENsb3NlT3V0Cj09CmJueiBtYWluX2wxMgp0eG4gT25Db21wbGV0aW9uCnB1c2hpbnQgNCAvLyBVcGRhdGVBcHBsaWNhdGlvbgo9PQpibnogbWFpbl9sMTEKdHhuIE9uQ29tcGxldGlvbgpwdXNoaW50IDUgLy8gRGVsZXRlQXBwbGljYXRpb24KPT0KYm56IG1haW5fbDEwCmVycgptYWluX2wxMDoKY2FsbHN1YiBiYXJlXzEKaW50Y18wIC8vIDEKcmV0dXJuCm1haW5fbDExOgpjYWxsc3ViIGJhcmVfMQppbnRjXzAgLy8gMQpyZXR1cm4KbWFpbl9sMTI6CmNhbGxzdWIgYmFyZV8xCmludGNfMCAvLyAxCnJldHVybgptYWluX2wxMzoKY2FsbHN1YiBiYXJlXzEKaW50Y18wIC8vIDEKcmV0dXJuCm1haW5fbDE0OgpjYWxsc3ViIGJhcmVfMQppbnRjXzAgLy8gMQpyZXR1cm4KCi8vIGFiaQphYmlfMDoKcHJvdG8gMCAwCmludGNfMCAvLyAxCnJldHVybgoKLy8gYmFyZQpiYXJlXzE6CnByb3RvIDAgMAppbnRjXzAgLy8gMQpyZXR1cm4KCi8vIGFiaV9jYXN0ZXIKYWJpY2FzdGVyXzI6CnByb3RvIDAgMApjYWxsc3ViIGFiaV8wCnJldHN1Yg==",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxCmNhbGxzdWIgY2xlYXJzdGF0ZV8wCmludGNfMCAvLyAxCnJldHVybgoKLy8gY2xlYXJfc3RhdGUKY2xlYXJzdGF0ZV8wOgpwcm90byAwIDAKaW50Y18wIC8vIDEKcmV0dXJu"
-    },
-    "state": {
-        "global": {
-            "num_byte_slices": 0,
-            "num_uints": 0
-        },
-        "local": {
-            "num_byte_slices": 0,
-            "num_uints": 0
-        }
-    },
-    "schema": {
-        "global": {
-            "declared": {},
-            "reserved": {}
-        },
-        "local": {
-            "declared": {},
-            "reserved": {}
-        }
-    },
-    "contract": {
-        "name": "AllowEverything",
-        "methods": [
-            {
-                "name": "abi",
-                "args": [],
-                "returns": {
-                    "type": "void"
-                }
-            }
-        ],
-        "networks": {}
-    },
-    "bare_call_config": {
+  "hints": {
+    "abi()void": {
+      "call_config": {
         "close_out": "ALL",
         "delete_application": "ALL",
         "no_op": "ALL",
         "opt_in": "ALL",
         "update_application": "ALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxIDAKdHhuIE51bUFwcEFyZ3MKaW50Y18xIC8vIDAKPT0KYm56IG1haW5fbDQKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHg5ZGE5YjRiOCAvLyAiYWJpKCl2b2lkIgo9PQpibnogbWFpbl9sMwplcnIKbWFpbl9sMzoKY2FsbHN1YiBhYmljYXN0ZXJfMgppbnRjXzAgLy8gMQpyZXR1cm4KbWFpbl9sNDoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzEgLy8gTm9PcAo9PQpibnogbWFpbl9sMTQKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gT3B0SW4KPT0KYm56IG1haW5fbDEzCnR4biBPbkNvbXBsZXRpb24KcHVzaGludCAyIC8vIENsb3NlT3V0Cj09CmJueiBtYWluX2wxMgp0eG4gT25Db21wbGV0aW9uCnB1c2hpbnQgNCAvLyBVcGRhdGVBcHBsaWNhdGlvbgo9PQpibnogbWFpbl9sMTEKdHhuIE9uQ29tcGxldGlvbgpwdXNoaW50IDUgLy8gRGVsZXRlQXBwbGljYXRpb24KPT0KYm56IG1haW5fbDEwCmVycgptYWluX2wxMDoKY2FsbHN1YiBiYXJlXzEKaW50Y18wIC8vIDEKcmV0dXJuCm1haW5fbDExOgpjYWxsc3ViIGJhcmVfMQppbnRjXzAgLy8gMQpyZXR1cm4KbWFpbl9sMTI6CmNhbGxzdWIgYmFyZV8xCmludGNfMCAvLyAxCnJldHVybgptYWluX2wxMzoKY2FsbHN1YiBiYXJlXzEKaW50Y18wIC8vIDEKcmV0dXJuCm1haW5fbDE0OgpjYWxsc3ViIGJhcmVfMQppbnRjXzAgLy8gMQpyZXR1cm4KCi8vIGFiaQphYmlfMDoKcHJvdG8gMCAwCmludGNfMCAvLyAxCnJldHVybgoKLy8gYmFyZQpiYXJlXzE6CnByb3RvIDAgMAppbnRjXzAgLy8gMQpyZXR1cm4KCi8vIGFiaV9jYXN0ZXIKYWJpY2FzdGVyXzI6CnByb3RvIDAgMApjYWxsc3ViIGFiaV8wCnJldHN1Yg==",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAxCmNhbGxzdWIgY2xlYXJzdGF0ZV8wCmludGNfMCAvLyAxCnJldHVybgoKLy8gY2xlYXJfc3RhdGUKY2xlYXJzdGF0ZV8wOgpwcm90byAwIDAKaW50Y18wIC8vIDEKcmV0dXJu"
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    },
+    "local": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {},
+      "reserved": {}
+    },
+    "local": {
+      "declared": {},
+      "reserved": {}
+    }
+  },
+  "contract": {
+    "name": "AllowEverything",
+    "methods": [
+      {
+        "name": "abi",
+        "args": [],
+        "returns": {
+          "type": "void"
+        }
+      }
+    ],
+    "networks": {}
+  },
+  "bare_call_config": {
+    "close_out": "ALL",
+    "delete_application": "ALL",
+    "no_op": "ALL",
+    "opt_in": "ALL",
+    "update_application": "ALL"
+  }
 }

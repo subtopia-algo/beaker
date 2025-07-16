@@ -1,99 +1,99 @@
 {
-    "hints": {
-        "set_manager(address)void": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        },
-        "set_nick(string)void": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        },
-        "get_nick()string": {
-            "read_only": true,
-            "call_config": {
-                "no_op": "CALL"
-            }
-        }
+  "hints": {
+    "set_manager(address)void": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEKYnl0ZWNibG9jayAweCAweDZkNjE2ZTYxNjc2NTcyIDB4NmU2OTYzNmI2ZTYxNmQ2NQp0eG4gTnVtQXBwQXJncwppbnRjXzAgLy8gMAo9PQpibnogbWFpbl9sOAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDk2NjdkNmRlIC8vICJzZXRfbWFuYWdlcihhZGRyZXNzKXZvaWQiCj09CmJueiBtYWluX2w3CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4OGZkMDBmY2EgLy8gInNldF9uaWNrKHN0cmluZyl2b2lkIgo9PQpibnogbWFpbl9sNgp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDY0YTM5NjVhIC8vICJnZXRfbmljaygpc3RyaW5nIgo9PQpibnogbWFpbl9sNQplcnIKbWFpbl9sNToKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBnZXRuaWNrY2FzdGVyXzIKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgc2V0bmlja2Nhc3Rlcl8xCmludGNfMSAvLyAxCnJldHVybgptYWluX2w3Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CiYmCmFzc2VydApjYWxsc3ViIHNldG1hbmFnZXJjYXN0ZXJfMAppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sODoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQpibnogbWFpbl9sMTYKdHhuIE9uQ29tcGxldGlvbgppbnRjXzEgLy8gT3B0SW4KPT0KYm56IG1haW5fbDE1CnR4biBPbkNvbXBsZXRpb24KcHVzaGludCAyIC8vIENsb3NlT3V0Cj09CmJueiBtYWluX2wxNAp0eG4gT25Db21wbGV0aW9uCnB1c2hpbnQgNSAvLyBEZWxldGVBcHBsaWNhdGlvbgo9PQpibnogbWFpbl9sMTMKZXJyCm1haW5fbDEzOgp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBkZWxldGVfNgppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sMTQ6CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CmFzc2VydApjYWxsc3ViIGNsb3Nlb3V0XzUKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDE1Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBvcHRpbl80CmludGNfMSAvLyAxCnJldHVybgptYWluX2wxNjoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlXzMKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBzZXRfbWFuYWdlcl9jYXN0ZXIKc2V0bWFuYWdlcmNhc3Rlcl8wOgpwcm90byAwIDAKYnl0ZWNfMCAvLyAiIgp0eG5hIEFwcGxpY2F0aW9uQXJncyAxCmZyYW1lX2J1cnkgMApmcmFtZV9kaWcgMApjYWxsc3ViIHNldG1hbmFnZXJfNwpyZXRzdWIKCi8vIHNldF9uaWNrX2Nhc3RlcgpzZXRuaWNrY2FzdGVyXzE6CnByb3RvIDAgMApieXRlY18wIC8vICIiCnR4bmEgQXBwbGljYXRpb25BcmdzIDEKZnJhbWVfYnVyeSAwCmZyYW1lX2RpZyAwCmNhbGxzdWIgc2V0bmlja184CnJldHN1YgoKLy8gZ2V0X25pY2tfY2FzdGVyCmdldG5pY2tjYXN0ZXJfMjoKcHJvdG8gMCAwCmJ5dGVjXzAgLy8gIiIKY2FsbHN1YiBnZXRuaWNrXzkKZnJhbWVfYnVyeSAwCnB1c2hieXRlcyAweDE1MWY3Yzc1IC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKY29uY2F0CmxvZwpyZXRzdWIKCi8vIGNyZWF0ZQpjcmVhdGVfMzoKcHJvdG8gMCAwCmJ5dGVjXzEgLy8gIm1hbmFnZXIiCmdsb2JhbCBDcmVhdG9yQWRkcmVzcwphcHBfZ2xvYmFsX3B1dApyZXRzdWIKCi8vIG9wdF9pbgpvcHRpbl80Ogpwcm90byAwIDAKdHhuIFNlbmRlcgpieXRlY18yIC8vICJuaWNrbmFtZSIKYnl0ZWNfMCAvLyAiIgphcHBfbG9jYWxfcHV0CnJldHN1YgoKLy8gY2xvc2Vfb3V0CmNsb3Nlb3V0XzU6CnByb3RvIDAgMAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIGRlbGV0ZQpkZWxldGVfNjoKcHJvdG8gMCAwCnR4biBTZW5kZXIKYnl0ZWNfMSAvLyAibWFuYWdlciIKYXBwX2dsb2JhbF9nZXQKPT0KLy8gdW5hdXRob3JpemVkCmFzc2VydAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIHNldF9tYW5hZ2VyCnNldG1hbmFnZXJfNzoKcHJvdG8gMSAwCnR4biBTZW5kZXIKYnl0ZWNfMSAvLyAibWFuYWdlciIKYXBwX2dsb2JhbF9nZXQKPT0KLy8gdW5hdXRob3JpemVkCmFzc2VydApieXRlY18xIC8vICJtYW5hZ2VyIgpmcmFtZV9kaWcgLTEKYXBwX2dsb2JhbF9wdXQKcmV0c3ViCgovLyBzZXRfbmljawpzZXRuaWNrXzg6CnByb3RvIDEgMAp0eG4gU2VuZGVyCmJ5dGVjXzIgLy8gIm5pY2tuYW1lIgpmcmFtZV9kaWcgLTEKZXh0cmFjdCAyIDAKYXBwX2xvY2FsX3B1dApyZXRzdWIKCi8vIGdldF9uaWNrCmdldG5pY2tfOToKcHJvdG8gMCAxCmJ5dGVjXzAgLy8gIiIKdHhuIFNlbmRlcgpieXRlY18yIC8vICJuaWNrbmFtZSIKYXBwX2xvY2FsX2dldApmcmFtZV9idXJ5IDAKZnJhbWVfZGlnIDAKbGVuCml0b2IKZXh0cmFjdCA2IDAKZnJhbWVfZGlnIDAKY29uY2F0CmZyYW1lX2J1cnkgMApyZXRzdWI=",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+    "set_nick(string)void": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     },
-    "state": {
-        "global": {
-            "num_byte_slices": 1,
-            "num_uints": 0
-        },
-        "local": {
-            "num_byte_slices": 1,
-            "num_uints": 0
-        }
-    },
-    "schema": {
-        "global": {
-            "declared": {
-                "manager": {
-                    "type": "bytes",
-                    "key": "manager",
-                    "descr": ""
-                }
-            },
-            "reserved": {}
-        },
-        "local": {
-            "declared": {
-                "nickname": {
-                    "type": "bytes",
-                    "key": "nickname",
-                    "descr": "what this user prefers to be called"
-                }
-            },
-            "reserved": {}
-        }
-    },
-    "contract": {
-        "name": "Nicknames",
-        "methods": [
-            {
-                "name": "set_manager",
-                "args": [
-                    {
-                        "type": "address",
-                        "name": "new_manager"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            },
-            {
-                "name": "set_nick",
-                "args": [
-                    {
-                        "type": "string",
-                        "name": "nick"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            },
-            {
-                "name": "get_nick",
-                "args": [],
-                "returns": {
-                    "type": "string"
-                }
-            }
-        ],
-        "networks": {}
-    },
-    "bare_call_config": {
-        "close_out": "CALL",
-        "delete_application": "CALL",
-        "no_op": "CREATE",
-        "opt_in": "CALL"
+    "get_nick()string": {
+      "read_only": true,
+      "call_config": {
+        "no_op": "CALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEKYnl0ZWNibG9jayAweCAweDZkNjE2ZTYxNjc2NTcyIDB4NmU2OTYzNmI2ZTYxNmQ2NQp0eG4gTnVtQXBwQXJncwppbnRjXzAgLy8gMAo9PQpibnogbWFpbl9sOAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDk2NjdkNmRlIC8vICJzZXRfbWFuYWdlcihhZGRyZXNzKXZvaWQiCj09CmJueiBtYWluX2w3CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4OGZkMDBmY2EgLy8gInNldF9uaWNrKHN0cmluZyl2b2lkIgo9PQpibnogbWFpbl9sNgp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDY0YTM5NjVhIC8vICJnZXRfbmljaygpc3RyaW5nIgo9PQpibnogbWFpbl9sNQplcnIKbWFpbl9sNToKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBnZXRuaWNrY2FzdGVyXzIKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgc2V0bmlja2Nhc3Rlcl8xCmludGNfMSAvLyAxCnJldHVybgptYWluX2w3Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CiYmCmFzc2VydApjYWxsc3ViIHNldG1hbmFnZXJjYXN0ZXJfMAppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sODoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQpibnogbWFpbl9sMTYKdHhuIE9uQ29tcGxldGlvbgppbnRjXzEgLy8gT3B0SW4KPT0KYm56IG1haW5fbDE1CnR4biBPbkNvbXBsZXRpb24KcHVzaGludCAyIC8vIENsb3NlT3V0Cj09CmJueiBtYWluX2wxNAp0eG4gT25Db21wbGV0aW9uCnB1c2hpbnQgNSAvLyBEZWxldGVBcHBsaWNhdGlvbgo9PQpibnogbWFpbl9sMTMKZXJyCm1haW5fbDEzOgp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBkZWxldGVfNgppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sMTQ6CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CmFzc2VydApjYWxsc3ViIGNsb3Nlb3V0XzUKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDE1Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBvcHRpbl80CmludGNfMSAvLyAxCnJldHVybgptYWluX2wxNjoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlXzMKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBzZXRfbWFuYWdlcl9jYXN0ZXIKc2V0bWFuYWdlcmNhc3Rlcl8wOgpwcm90byAwIDAKYnl0ZWNfMCAvLyAiIgp0eG5hIEFwcGxpY2F0aW9uQXJncyAxCmZyYW1lX2J1cnkgMApmcmFtZV9kaWcgMApjYWxsc3ViIHNldG1hbmFnZXJfNwpyZXRzdWIKCi8vIHNldF9uaWNrX2Nhc3RlcgpzZXRuaWNrY2FzdGVyXzE6CnByb3RvIDAgMApieXRlY18wIC8vICIiCnR4bmEgQXBwbGljYXRpb25BcmdzIDEKZnJhbWVfYnVyeSAwCmZyYW1lX2RpZyAwCmNhbGxzdWIgc2V0bmlja184CnJldHN1YgoKLy8gZ2V0X25pY2tfY2FzdGVyCmdldG5pY2tjYXN0ZXJfMjoKcHJvdG8gMCAwCmJ5dGVjXzAgLy8gIiIKY2FsbHN1YiBnZXRuaWNrXzkKZnJhbWVfYnVyeSAwCnB1c2hieXRlcyAweDE1MWY3Yzc1IC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKY29uY2F0CmxvZwpyZXRzdWIKCi8vIGNyZWF0ZQpjcmVhdGVfMzoKcHJvdG8gMCAwCmJ5dGVjXzEgLy8gIm1hbmFnZXIiCmdsb2JhbCBDcmVhdG9yQWRkcmVzcwphcHBfZ2xvYmFsX3B1dApyZXRzdWIKCi8vIG9wdF9pbgpvcHRpbl80Ogpwcm90byAwIDAKdHhuIFNlbmRlcgpieXRlY18yIC8vICJuaWNrbmFtZSIKYnl0ZWNfMCAvLyAiIgphcHBfbG9jYWxfcHV0CnJldHN1YgoKLy8gY2xvc2Vfb3V0CmNsb3Nlb3V0XzU6CnByb3RvIDAgMAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIGRlbGV0ZQpkZWxldGVfNjoKcHJvdG8gMCAwCnR4biBTZW5kZXIKYnl0ZWNfMSAvLyAibWFuYWdlciIKYXBwX2dsb2JhbF9nZXQKPT0KLy8gdW5hdXRob3JpemVkCmFzc2VydAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIHNldF9tYW5hZ2VyCnNldG1hbmFnZXJfNzoKcHJvdG8gMSAwCnR4biBTZW5kZXIKYnl0ZWNfMSAvLyAibWFuYWdlciIKYXBwX2dsb2JhbF9nZXQKPT0KLy8gdW5hdXRob3JpemVkCmFzc2VydApieXRlY18xIC8vICJtYW5hZ2VyIgpmcmFtZV9kaWcgLTEKYXBwX2dsb2JhbF9wdXQKcmV0c3ViCgovLyBzZXRfbmljawpzZXRuaWNrXzg6CnByb3RvIDEgMAp0eG4gU2VuZGVyCmJ5dGVjXzIgLy8gIm5pY2tuYW1lIgpmcmFtZV9kaWcgLTEKZXh0cmFjdCAyIDAKYXBwX2xvY2FsX3B1dApyZXRzdWIKCi8vIGdldF9uaWNrCmdldG5pY2tfOToKcHJvdG8gMCAxCmJ5dGVjXzAgLy8gIiIKdHhuIFNlbmRlcgpieXRlY18yIC8vICJuaWNrbmFtZSIKYXBwX2xvY2FsX2dldApmcmFtZV9idXJ5IDAKZnJhbWVfZGlnIDAKbGVuCml0b2IKZXh0cmFjdCA2IDAKZnJhbWVfZGlnIDAKY29uY2F0CmZyYW1lX2J1cnkgMApyZXRzdWI=",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 1,
+      "num_uints": 0
+    },
+    "local": {
+      "num_byte_slices": 1,
+      "num_uints": 0
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {
+        "manager": {
+          "type": "bytes",
+          "key": "manager",
+          "descr": ""
+        }
+      },
+      "reserved": {}
+    },
+    "local": {
+      "declared": {
+        "nickname": {
+          "type": "bytes",
+          "key": "nickname",
+          "descr": "what this user prefers to be called"
+        }
+      },
+      "reserved": {}
+    }
+  },
+  "contract": {
+    "name": "Nicknames",
+    "methods": [
+      {
+        "name": "set_manager",
+        "args": [
+          {
+            "type": "address",
+            "name": "new_manager"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "set_nick",
+        "args": [
+          {
+            "type": "string",
+            "name": "nick"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "get_nick",
+        "args": [],
+        "returns": {
+          "type": "string"
+        }
+      }
+    ],
+    "networks": {}
+  },
+  "bare_call_config": {
+    "close_out": "CALL",
+    "delete_application": "CALL",
+    "no_op": "CREATE",
+    "opt_in": "CALL"
+  }
 }

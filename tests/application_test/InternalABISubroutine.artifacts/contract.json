@@ -1,13 +1,13 @@
 {
-    "name": "InternalABISubroutine",
-    "methods": [
-        {
-            "name": "doit",
-            "args": [],
-            "returns": {
-                "type": "bool"
-            }
-        }
-    ],
-    "networks": {}
+  "name": "InternalABISubroutine",
+  "methods": [
+    {
+      "name": "doit",
+      "args": [],
+      "returns": {
+        "type": "bool"
+      }
+    }
+  ],
+  "networks": {}
 }

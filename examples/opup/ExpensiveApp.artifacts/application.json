@@ -1,93 +1,93 @@
 {
-    "hints": {
-        "opup_bootstrap(pay)uint64": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        },
-        "hash_it(string,uint64,application)byte[32]": {
-            "default_arguments": {
-                "opup_app": {
-                    "source": "global-state",
-                    "data": "ouaid"
-                }
-            },
-            "call_config": {
-                "no_op": "CALL"
-            }
+  "hints": {
+    "opup_bootstrap(pay)uint64": {
+      "call_config": {
+        "no_op": "CALL"
+      }
+    },
+    "hash_it(string,uint64,application)byte[32]": {
+      "default_arguments": {
+        "opup_app": {
+          "source": "global-state",
+          "data": "ouaid"
         }
-    },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgNgpieXRlY2Jsb2NrIDB4NmY3NTYxNjk2NCAweDE1MWY3Yzc1IDB4CnR4biBOdW1BcHBBcmdzCmludGNfMCAvLyAwCj09CmJueiBtYWluX2w2CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4MTAxY2VhMDAgLy8gIm9wdXBfYm9vdHN0cmFwKHBheSl1aW50NjQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4NjIyOGM2ODIgLy8gImhhc2hfaXQoc3RyaW5nLHVpbnQ2NCxhcHBsaWNhdGlvbilieXRlWzMyXSIKPT0KYm56IG1haW5fbDQKZXJyCm1haW5fbDQ6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgaGFzaGl0Y2FzdGVyXzEKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDU6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgb3B1cGJvb3RzdHJhcGNhc3Rlcl8wCmludGNfMSAvLyAxCnJldHVybgptYWluX2w2Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CmJueiBtYWluX2w4CmVycgptYWluX2w4Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAo9PQphc3NlcnQKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBvcHVwX2Jvb3RzdHJhcF9jYXN0ZXIKb3B1cGJvb3RzdHJhcGNhc3Rlcl8wOgpwcm90byAwIDAKaW50Y18wIC8vIDAKZHVwCnR4biBHcm91cEluZGV4CmludGNfMSAvLyAxCi0KZnJhbWVfYnVyeSAxCmZyYW1lX2RpZyAxCmd0eG5zIFR5cGVFbnVtCmludGNfMSAvLyBwYXkKPT0KYXNzZXJ0CmZyYW1lX2RpZyAxCmNhbGxzdWIgb3B1cGJvb3RzdHJhcF8yCmZyYW1lX2J1cnkgMApieXRlY18xIC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKaXRvYgpjb25jYXQKbG9nCnJldHN1YgoKLy8gaGFzaF9pdF9jYXN0ZXIKaGFzaGl0Y2FzdGVyXzE6CnByb3RvIDAgMApieXRlY18yIC8vICIiCmR1cAppbnRjXzAgLy8gMApkdXAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQpmcmFtZV9idXJ5IDEKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgpidG9pCmZyYW1lX2J1cnkgMgp0eG5hIEFwcGxpY2F0aW9uQXJncyAzCmludGNfMCAvLyAwCmdldGJ5dGUKZnJhbWVfYnVyeSAzCmZyYW1lX2RpZyAxCmZyYW1lX2RpZyAyCmZyYW1lX2RpZyAzCmNhbGxzdWIgaGFzaGl0XzQKZnJhbWVfYnVyeSAwCmJ5dGVjXzEgLy8gMHgxNTFmN2M3NQpmcmFtZV9kaWcgMApjb25jYXQKbG9nCnJldHN1YgoKLy8gb3B1cF9ib290c3RyYXAKb3B1cGJvb3RzdHJhcF8yOgpwcm90byAxIDEKaW50Y18wIC8vIDAKZnJhbWVfZGlnIC0xCmd0eG5zIEFtb3VudApwdXNoaW50IDEwMDAwMCAvLyAxMDAwMDAKPj0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlb3B1cF8zCmJ5dGVjXzAgLy8gIm91YWlkIgphcHBfZ2xvYmFsX2dldApmcmFtZV9idXJ5IDAKcmV0c3ViCgovLyBjcmVhdGVfb3B1cApjcmVhdGVvcHVwXzM6CnByb3RvIDAgMAppdHhuX2JlZ2luCmludGNfMiAvLyBhcHBsCml0eG5fZmllbGQgVHlwZUVudW0KcHVzaGJ5dGVzIDB4MGEyMDAyMDAwMTMxMWIyMjEyNDAwMDFkMzYxYTAwODAwNDRjNmJlYTcyMTI0MDAwMDEwMDMxMTkyMjEyMzExODIyMTMxMDQ0ODgwMDExMjM0MzMxMTkyMjEyNDAwMDAxMDAzMTE4MjIxMjQ0MjM0MzhhMDAwMDg4MDAwMTg5OGEwMDAwMzEwMDMyMDkxMjQ0MjM0MyAvLyAweDBhMjAwMjAwMDEzMTFiMjIxMjQwMDAxZDM2MWEwMDgwMDQ0YzZiZWE3MjEyNDAwMDAxMDAzMTE5MjIxMjMxMTgyMjEzMTA0NDg4MDAxMTIzNDMzMTE5MjIxMjQwMDAwMTAwMzExODIyMTI0NDIzNDM4YTAwMDA4ODAwMDE4OThhMDAwMDMxMDAzMjA5MTI0NDIzNDMKaXR4bl9maWVsZCBBcHByb3ZhbFByb2dyYW0KcHVzaGJ5dGVzIDB4MGE4MTAwNDMgLy8gMHgwYTgxMDA0MwppdHhuX2ZpZWxkIENsZWFyU3RhdGVQcm9ncmFtCmludGNfMCAvLyAwCml0eG5fZmllbGQgRmVlCml0eG5fc3VibWl0CmludGNfMCAvLyAwCmJ5dGVjXzAgLy8gIm91YWlkIgphcHBfZ2xvYmFsX2dldF9leApzdG9yZSAxCnN0b3JlIDAKbG9hZCAxCiEKYXNzZXJ0CmJ5dGVjXzAgLy8gIm91YWlkIgppdHhuIENyZWF0ZWRBcHBsaWNhdGlvbklECmFwcF9nbG9iYWxfcHV0CnJldHN1YgoKLy8gaGFzaF9pdApoYXNoaXRfNDoKcHJvdG8gMyAxCmJ5dGVjXzIgLy8gIiIKZnJhbWVfZGlnIC0xCnR4bmFzIEFwcGxpY2F0aW9ucwpieXRlY18wIC8vICJvdWFpZCIKYXBwX2dsb2JhbF9nZXQKPT0KYXNzZXJ0CmludGNfMCAvLyAwCnN0b3JlIDIKaGFzaGl0XzRfbDE6CmxvYWQgMgpwdXNoaW50IDI1NSAvLyAyNTUKPApibnogaGFzaGl0XzRfbDUKZnJhbWVfZGlnIC0zCmV4dHJhY3QgMiAwCnN0b3JlIDMKaW50Y18wIC8vIDAKc3RvcmUgNApoYXNoaXRfNF9sMzoKbG9hZCA0CmZyYW1lX2RpZyAtMgo8CmJ6IGhhc2hpdF80X2w2CmxvYWQgMwpzaGEyNTYKc3RvcmUgMwpsb2FkIDQKaW50Y18xIC8vIDEKKwpzdG9yZSA0CmIgaGFzaGl0XzRfbDMKaGFzaGl0XzRfbDU6Cml0eG5fYmVnaW4KaW50Y18yIC8vIGFwcGwKaXR4bl9maWVsZCBUeXBlRW51bQpieXRlY18wIC8vICJvdWFpZCIKYXBwX2dsb2JhbF9nZXQKaXR4bl9maWVsZCBBcHBsaWNhdGlvbklECnB1c2hieXRlcyAweDRjNmJlYTcyIC8vICJvcHVwKCl2b2lkIgppdHhuX2ZpZWxkIEFwcGxpY2F0aW9uQXJncwppbnRjXzAgLy8gMAppdHhuX2ZpZWxkIEZlZQppdHhuX3N1Ym1pdApsb2FkIDIKaW50Y18xIC8vIDEKKwpzdG9yZSAyCmIgaGFzaGl0XzRfbDEKaGFzaGl0XzRfbDY6CmxvYWQgMwpmcmFtZV9idXJ5IDAKcmV0c3Vi",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
-    },
-    "state": {
-        "global": {
-            "num_byte_slices": 0,
-            "num_uints": 1
-        },
-        "local": {
-            "num_byte_slices": 0,
-            "num_uints": 0
-        }
-    },
-    "schema": {
-        "global": {
-            "declared": {
-                "opup_app_id": {
-                    "type": "uint64",
-                    "key": "ouaid",
-                    "descr": ""
-                }
-            },
-            "reserved": {}
-        },
-        "local": {
-            "declared": {},
-            "reserved": {}
-        }
-    },
-    "contract": {
-        "name": "ExpensiveApp",
-        "methods": [
-            {
-                "name": "opup_bootstrap",
-                "args": [
-                    {
-                        "type": "pay",
-                        "name": "ptxn"
-                    }
-                ],
-                "returns": {
-                    "type": "uint64"
-                },
-                "desc": "initialize opup with bootstrap to create a target app"
-            },
-            {
-                "name": "hash_it",
-                "args": [
-                    {
-                        "type": "string",
-                        "name": "input"
-                    },
-                    {
-                        "type": "uint64",
-                        "name": "iters"
-                    },
-                    {
-                        "type": "application",
-                        "name": "opup_app"
-                    }
-                ],
-                "returns": {
-                    "type": "byte[32]"
-                }
-            }
-        ],
-        "networks": {},
-        "desc": "Do expensive work to demonstrate implementing op_up blueprint"
-    },
-    "bare_call_config": {
-        "no_op": "CREATE"
+      },
+      "call_config": {
+        "no_op": "CALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgNgpieXRlY2Jsb2NrIDB4NmY3NTYxNjk2NCAweDE1MWY3Yzc1IDB4CnR4biBOdW1BcHBBcmdzCmludGNfMCAvLyAwCj09CmJueiBtYWluX2w2CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4MTAxY2VhMDAgLy8gIm9wdXBfYm9vdHN0cmFwKHBheSl1aW50NjQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4NjIyOGM2ODIgLy8gImhhc2hfaXQoc3RyaW5nLHVpbnQ2NCxhcHBsaWNhdGlvbilieXRlWzMyXSIKPT0KYm56IG1haW5fbDQKZXJyCm1haW5fbDQ6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgaGFzaGl0Y2FzdGVyXzEKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDU6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgb3B1cGJvb3RzdHJhcGNhc3Rlcl8wCmludGNfMSAvLyAxCnJldHVybgptYWluX2w2Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CmJueiBtYWluX2w4CmVycgptYWluX2w4Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAo9PQphc3NlcnQKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBvcHVwX2Jvb3RzdHJhcF9jYXN0ZXIKb3B1cGJvb3RzdHJhcGNhc3Rlcl8wOgpwcm90byAwIDAKaW50Y18wIC8vIDAKZHVwCnR4biBHcm91cEluZGV4CmludGNfMSAvLyAxCi0KZnJhbWVfYnVyeSAxCmZyYW1lX2RpZyAxCmd0eG5zIFR5cGVFbnVtCmludGNfMSAvLyBwYXkKPT0KYXNzZXJ0CmZyYW1lX2RpZyAxCmNhbGxzdWIgb3B1cGJvb3RzdHJhcF8yCmZyYW1lX2J1cnkgMApieXRlY18xIC8vIDB4MTUxZjdjNzUKZnJhbWVfZGlnIDAKaXRvYgpjb25jYXQKbG9nCnJldHN1YgoKLy8gaGFzaF9pdF9jYXN0ZXIKaGFzaGl0Y2FzdGVyXzE6CnByb3RvIDAgMApieXRlY18yIC8vICIiCmR1cAppbnRjXzAgLy8gMApkdXAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQpmcmFtZV9idXJ5IDEKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgpidG9pCmZyYW1lX2J1cnkgMgp0eG5hIEFwcGxpY2F0aW9uQXJncyAzCmludGNfMCAvLyAwCmdldGJ5dGUKZnJhbWVfYnVyeSAzCmZyYW1lX2RpZyAxCmZyYW1lX2RpZyAyCmZyYW1lX2RpZyAzCmNhbGxzdWIgaGFzaGl0XzQKZnJhbWVfYnVyeSAwCmJ5dGVjXzEgLy8gMHgxNTFmN2M3NQpmcmFtZV9kaWcgMApjb25jYXQKbG9nCnJldHN1YgoKLy8gb3B1cF9ib290c3RyYXAKb3B1cGJvb3RzdHJhcF8yOgpwcm90byAxIDEKaW50Y18wIC8vIDAKZnJhbWVfZGlnIC0xCmd0eG5zIEFtb3VudApwdXNoaW50IDEwMDAwMCAvLyAxMDAwMDAKPj0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlb3B1cF8zCmJ5dGVjXzAgLy8gIm91YWlkIgphcHBfZ2xvYmFsX2dldApmcmFtZV9idXJ5IDAKcmV0c3ViCgovLyBjcmVhdGVfb3B1cApjcmVhdGVvcHVwXzM6CnByb3RvIDAgMAppdHhuX2JlZ2luCmludGNfMiAvLyBhcHBsCml0eG5fZmllbGQgVHlwZUVudW0KcHVzaGJ5dGVzIDB4MGEyMDAyMDAwMTMxMWIyMjEyNDAwMDFkMzYxYTAwODAwNDRjNmJlYTcyMTI0MDAwMDEwMDMxMTkyMjEyMzExODIyMTMxMDQ0ODgwMDExMjM0MzMxMTkyMjEyNDAwMDAxMDAzMTE4MjIxMjQ0MjM0MzhhMDAwMDg4MDAwMTg5OGEwMDAwMzEwMDMyMDkxMjQ0MjM0MyAvLyAweDBhMjAwMjAwMDEzMTFiMjIxMjQwMDAxZDM2MWEwMDgwMDQ0YzZiZWE3MjEyNDAwMDAxMDAzMTE5MjIxMjMxMTgyMjEzMTA0NDg4MDAxMTIzNDMzMTE5MjIxMjQwMDAwMTAwMzExODIyMTI0NDIzNDM4YTAwMDA4ODAwMDE4OThhMDAwMDMxMDAzMjA5MTI0NDIzNDMKaXR4bl9maWVsZCBBcHByb3ZhbFByb2dyYW0KcHVzaGJ5dGVzIDB4MGE4MTAwNDMgLy8gMHgwYTgxMDA0MwppdHhuX2ZpZWxkIENsZWFyU3RhdGVQcm9ncmFtCmludGNfMCAvLyAwCml0eG5fZmllbGQgRmVlCml0eG5fc3VibWl0CmludGNfMCAvLyAwCmJ5dGVjXzAgLy8gIm91YWlkIgphcHBfZ2xvYmFsX2dldF9leApzdG9yZSAxCnN0b3JlIDAKbG9hZCAxCiEKYXNzZXJ0CmJ5dGVjXzAgLy8gIm91YWlkIgppdHhuIENyZWF0ZWRBcHBsaWNhdGlvbklECmFwcF9nbG9iYWxfcHV0CnJldHN1YgoKLy8gaGFzaF9pdApoYXNoaXRfNDoKcHJvdG8gMyAxCmJ5dGVjXzIgLy8gIiIKZnJhbWVfZGlnIC0xCnR4bmFzIEFwcGxpY2F0aW9ucwpieXRlY18wIC8vICJvdWFpZCIKYXBwX2dsb2JhbF9nZXQKPT0KYXNzZXJ0CmludGNfMCAvLyAwCnN0b3JlIDIKaGFzaGl0XzRfbDE6CmxvYWQgMgpwdXNoaW50IDI1NSAvLyAyNTUKPApibnogaGFzaGl0XzRfbDUKZnJhbWVfZGlnIC0zCmV4dHJhY3QgMiAwCnN0b3JlIDMKaW50Y18wIC8vIDAKc3RvcmUgNApoYXNoaXRfNF9sMzoKbG9hZCA0CmZyYW1lX2RpZyAtMgo8CmJ6IGhhc2hpdF80X2w2CmxvYWQgMwpzaGEyNTYKc3RvcmUgMwpsb2FkIDQKaW50Y18xIC8vIDEKKwpzdG9yZSA0CmIgaGFzaGl0XzRfbDMKaGFzaGl0XzRfbDU6Cml0eG5fYmVnaW4KaW50Y18yIC8vIGFwcGwKaXR4bl9maWVsZCBUeXBlRW51bQpieXRlY18wIC8vICJvdWFpZCIKYXBwX2dsb2JhbF9nZXQKaXR4bl9maWVsZCBBcHBsaWNhdGlvbklECnB1c2hieXRlcyAweDRjNmJlYTcyIC8vICJvcHVwKCl2b2lkIgppdHhuX2ZpZWxkIEFwcGxpY2F0aW9uQXJncwppbnRjXzAgLy8gMAppdHhuX2ZpZWxkIEZlZQppdHhuX3N1Ym1pdApsb2FkIDIKaW50Y18xIC8vIDEKKwpzdG9yZSAyCmIgaGFzaGl0XzRfbDEKaGFzaGl0XzRfbDY6CmxvYWQgMwpmcmFtZV9idXJ5IDAKcmV0c3Vi",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 0,
+      "num_uints": 1
+    },
+    "local": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {
+        "opup_app_id": {
+          "type": "uint64",
+          "key": "ouaid",
+          "descr": ""
+        }
+      },
+      "reserved": {}
+    },
+    "local": {
+      "declared": {},
+      "reserved": {}
+    }
+  },
+  "contract": {
+    "name": "ExpensiveApp",
+    "methods": [
+      {
+        "name": "opup_bootstrap",
+        "args": [
+          {
+            "type": "pay",
+            "name": "ptxn"
+          }
+        ],
+        "returns": {
+          "type": "uint64"
+        },
+        "desc": "initialize opup with bootstrap to create a target app"
+      },
+      {
+        "name": "hash_it",
+        "args": [
+          {
+            "type": "string",
+            "name": "input"
+          },
+          {
+            "type": "uint64",
+            "name": "iters"
+          },
+          {
+            "type": "application",
+            "name": "opup_app"
+          }
+        ],
+        "returns": {
+          "type": "byte[32]"
+        }
+      }
+    ],
+    "networks": {},
+    "desc": "Do expensive work to demonstrate implementing op_up blueprint"
+  },
+  "bare_call_config": {
+    "no_op": "CREATE"
+  }
 }

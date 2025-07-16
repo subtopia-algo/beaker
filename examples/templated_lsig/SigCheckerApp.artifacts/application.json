@@ -1,62 +1,62 @@
 {
-    "hints": {
-        "check(address,string,byte[64])void": {
-            "call_config": {
-                "no_op": "CALL"
-            }
-        }
-    },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgMTI4IDI1NQpieXRlY2Jsb2NrIDB4IDB4MGE4MDAwMzUwMDM2MWEwMjM1MDEzNjFhMDMzNTAyMzQwMTU3MDIwMDM0MDIzNDAwODQ0NDgxMDE0Mwp0eG4gTnVtQXBwQXJncwppbnRjXzAgLy8gMAo9PQpibnogbWFpbl9sNAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweGE1ZTVjM2QxIC8vICJjaGVjayhhZGRyZXNzLHN0cmluZyxieXRlWzY0XSl2b2lkIgo9PQpibnogbWFpbl9sMwplcnIKbWFpbl9sMzoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBjaGVja2Nhc3Rlcl8wCmludGNfMSAvLyAxCnJldHVybgptYWluX2w0Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CmJueiBtYWluX2w2CmVycgptYWluX2w2Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAo9PQphc3NlcnQKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBjaGVja19jYXN0ZXIKY2hlY2tjYXN0ZXJfMDoKcHJvdG8gMCAwCmJ5dGVjXzAgLy8gIiIKZHVwbiAyCnR4bmEgQXBwbGljYXRpb25BcmdzIDEKZnJhbWVfYnVyeSAwCnR4bmEgQXBwbGljYXRpb25BcmdzIDIKZnJhbWVfYnVyeSAxCnR4bmEgQXBwbGljYXRpb25BcmdzIDMKZnJhbWVfYnVyeSAyCmZyYW1lX2RpZyAwCmZyYW1lX2RpZyAxCmZyYW1lX2RpZyAyCmNhbGxzdWIgY2hlY2tfMgpyZXRzdWIKCi8vIGVuY29kZV91dmFyaW50X2ltcGwKZW5jb2RldXZhcmludGltcGxfMToKcHJvdG8gMiAxCmZyYW1lX2RpZyAtMQpmcmFtZV9kaWcgLTIKaW50Y18yIC8vIDEyOAo+PQpibnogZW5jb2RldXZhcmludGltcGxfMV9sMgpmcmFtZV9kaWcgLTIKaW50Y18zIC8vIDI1NQomCml0b2IKZXh0cmFjdCA3IDEKYiBlbmNvZGV1dmFyaW50aW1wbF8xX2wzCmVuY29kZXV2YXJpbnRpbXBsXzFfbDI6CmZyYW1lX2RpZyAtMgpwdXNoaW50IDcgLy8gNwpzaHIKZnJhbWVfZGlnIC0yCmludGNfMyAvLyAyNTUKJgppbnRjXzIgLy8gMTI4CnwKaXRvYgpleHRyYWN0IDcgMQpjYWxsc3ViIGVuY29kZXV2YXJpbnRpbXBsXzEKZW5jb2RldXZhcmludGltcGxfMV9sMzoKY29uY2F0CnJldHN1YgoKLy8gY2hlY2sKY2hlY2tfMjoKcHJvdG8gMyAwCnR4biBTZW5kZXIKcHVzaGJ5dGVzIDB4NTA3MjZmNjc3MjYxNmQgLy8gIlByb2dyYW0iCmludGNfMCAvLyAwCnN0b3JlIDAKaW50Y18wIC8vIDAKc3RvcmUgMQpieXRlY18wIC8vICIiCnN0b3JlIDIKYnl0ZWNfMCAvLyAiIgpzdG9yZSAzCmZyYW1lX2RpZyAtMwpsZW4KYnl0ZWNfMCAvLyAiIgpjYWxsc3ViIGVuY29kZXV2YXJpbnRpbXBsXzEKZnJhbWVfZGlnIC0zCmNvbmNhdApzdG9yZSAyCmxvYWQgMwpieXRlY18xIC8vIDB4MGE4MDAwMzUwMDM2MWEwMjM1MDEzNjFhMDMzNTAyMzQwMTU3MDIwMDM0MDIzNDAwODQ0NDgxMDE0Mwpsb2FkIDAKcHVzaGludCAyIC8vIDIKc3Vic3RyaW5nMwpjb25jYXQKbG9hZCAyCmNvbmNhdApzdG9yZSAzCmxvYWQgMQpsb2FkIDIKbGVuCisKaW50Y18xIC8vIDEKLQpzdG9yZSAxCnB1c2hpbnQgMiAvLyAyCmludGNfMSAvLyAxCisKc3RvcmUgMApsb2FkIDMKYnl0ZWNfMSAvLyAweDBhODAwMDM1MDAzNjFhMDIzNTAxMzYxYTAzMzUwMjM0MDE1NzAyMDAzNDAyMzQwMDg0NDQ4MTAxNDMKbG9hZCAwCmRpZyAxCmxlbgpzdWJzdHJpbmczCmNvbmNhdApzdG9yZSAzCmxvYWQgMwpjb25jYXQKc2hhNTEyXzI1Ngo9PQphc3NlcnQKcmV0c3Vi",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
-    },
-    "state": {
-        "global": {
-            "num_byte_slices": 0,
-            "num_uints": 0
-        },
-        "local": {
-            "num_byte_slices": 0,
-            "num_uints": 0
-        }
-    },
-    "schema": {
-        "global": {
-            "declared": {},
-            "reserved": {}
-        },
-        "local": {
-            "declared": {},
-            "reserved": {}
-        }
-    },
-    "contract": {
-        "name": "SigCheckerApp",
-        "methods": [
-            {
-                "name": "check",
-                "args": [
-                    {
-                        "type": "address",
-                        "name": "signer_address"
-                    },
-                    {
-                        "type": "string",
-                        "name": "msg"
-                    },
-                    {
-                        "type": "byte[64]",
-                        "name": "sig"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            }
-        ],
-        "networks": {}
-    },
-    "bare_call_config": {
-        "no_op": "CREATE"
+  "hints": {
+    "check(address,string,byte[64])void": {
+      "call_config": {
+        "no_op": "CALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEgMTI4IDI1NQpieXRlY2Jsb2NrIDB4IDB4MGE4MDAwMzUwMDM2MWEwMjM1MDEzNjFhMDMzNTAyMzQwMTU3MDIwMDM0MDIzNDAwODQ0NDgxMDE0Mwp0eG4gTnVtQXBwQXJncwppbnRjXzAgLy8gMAo9PQpibnogbWFpbl9sNAp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweGE1ZTVjM2QxIC8vICJjaGVjayhhZGRyZXNzLHN0cmluZyxieXRlWzY0XSl2b2lkIgo9PQpibnogbWFpbl9sMwplcnIKbWFpbl9sMzoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBjaGVja2Nhc3Rlcl8wCmludGNfMSAvLyAxCnJldHVybgptYWluX2w0Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CmJueiBtYWluX2w2CmVycgptYWluX2w2Ogp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAo9PQphc3NlcnQKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBjaGVja19jYXN0ZXIKY2hlY2tjYXN0ZXJfMDoKcHJvdG8gMCAwCmJ5dGVjXzAgLy8gIiIKZHVwbiAyCnR4bmEgQXBwbGljYXRpb25BcmdzIDEKZnJhbWVfYnVyeSAwCnR4bmEgQXBwbGljYXRpb25BcmdzIDIKZnJhbWVfYnVyeSAxCnR4bmEgQXBwbGljYXRpb25BcmdzIDMKZnJhbWVfYnVyeSAyCmZyYW1lX2RpZyAwCmZyYW1lX2RpZyAxCmZyYW1lX2RpZyAyCmNhbGxzdWIgY2hlY2tfMgpyZXRzdWIKCi8vIGVuY29kZV91dmFyaW50X2ltcGwKZW5jb2RldXZhcmludGltcGxfMToKcHJvdG8gMiAxCmZyYW1lX2RpZyAtMQpmcmFtZV9kaWcgLTIKaW50Y18yIC8vIDEyOAo+PQpibnogZW5jb2RldXZhcmludGltcGxfMV9sMgpmcmFtZV9kaWcgLTIKaW50Y18zIC8vIDI1NQomCml0b2IKZXh0cmFjdCA3IDEKYiBlbmNvZGV1dmFyaW50aW1wbF8xX2wzCmVuY29kZXV2YXJpbnRpbXBsXzFfbDI6CmZyYW1lX2RpZyAtMgpwdXNoaW50IDcgLy8gNwpzaHIKZnJhbWVfZGlnIC0yCmludGNfMyAvLyAyNTUKJgppbnRjXzIgLy8gMTI4CnwKaXRvYgpleHRyYWN0IDcgMQpjYWxsc3ViIGVuY29kZXV2YXJpbnRpbXBsXzEKZW5jb2RldXZhcmludGltcGxfMV9sMzoKY29uY2F0CnJldHN1YgoKLy8gY2hlY2sKY2hlY2tfMjoKcHJvdG8gMyAwCnR4biBTZW5kZXIKcHVzaGJ5dGVzIDB4NTA3MjZmNjc3MjYxNmQgLy8gIlByb2dyYW0iCmludGNfMCAvLyAwCnN0b3JlIDAKaW50Y18wIC8vIDAKc3RvcmUgMQpieXRlY18wIC8vICIiCnN0b3JlIDIKYnl0ZWNfMCAvLyAiIgpzdG9yZSAzCmZyYW1lX2RpZyAtMwpsZW4KYnl0ZWNfMCAvLyAiIgpjYWxsc3ViIGVuY29kZXV2YXJpbnRpbXBsXzEKZnJhbWVfZGlnIC0zCmNvbmNhdApzdG9yZSAyCmxvYWQgMwpieXRlY18xIC8vIDB4MGE4MDAwMzUwMDM2MWEwMjM1MDEzNjFhMDMzNTAyMzQwMTU3MDIwMDM0MDIzNDAwODQ0NDgxMDE0Mwpsb2FkIDAKcHVzaGludCAyIC8vIDIKc3Vic3RyaW5nMwpjb25jYXQKbG9hZCAyCmNvbmNhdApzdG9yZSAzCmxvYWQgMQpsb2FkIDIKbGVuCisKaW50Y18xIC8vIDEKLQpzdG9yZSAxCnB1c2hpbnQgMiAvLyAyCmludGNfMSAvLyAxCisKc3RvcmUgMApsb2FkIDMKYnl0ZWNfMSAvLyAweDBhODAwMDM1MDAzNjFhMDIzNTAxMzYxYTAzMzUwMjM0MDE1NzAyMDAzNDAyMzQwMDg0NDQ4MTAxNDMKbG9hZCAwCmRpZyAxCmxlbgpzdWJzdHJpbmczCmNvbmNhdApzdG9yZSAzCmxvYWQgMwpjb25jYXQKc2hhNTEyXzI1Ngo9PQphc3NlcnQKcmV0c3Vi",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    },
+    "local": {
+      "num_byte_slices": 0,
+      "num_uints": 0
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {},
+      "reserved": {}
+    },
+    "local": {
+      "declared": {},
+      "reserved": {}
+    }
+  },
+  "contract": {
+    "name": "SigCheckerApp",
+    "methods": [
+      {
+        "name": "check",
+        "args": [
+          {
+            "type": "address",
+            "name": "signer_address"
+          },
+          {
+            "type": "string",
+            "name": "msg"
+          },
+          {
+            "type": "byte[64]",
+            "name": "sig"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      }
+    ],
+    "networks": {}
+  },
+  "bare_call_config": {
+    "no_op": "CREATE"
+  }
 }

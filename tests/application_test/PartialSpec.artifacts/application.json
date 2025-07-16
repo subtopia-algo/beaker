@@ -1,104 +1,104 @@
 {
-    "hints": {
-        "struct_meth((uint64,uint32))void": {
-            "structs": {
-                "thing": {
-                    "name": "Thing",
-                    "elements": [
-                        [
-                            "a",
-                            "uint64"
-                        ],
-                        [
-                            "b",
-                            "uint32"
-                        ]
-                    ]
-                }
-            },
-            "call_config": {
-                "no_op": "CALL"
-            }
-        },
-        "default_global_state(uint64)void": {
-            "default_arguments": {
-                "value": {
-                    "source": "global-state",
-                    "data": "decl_global_val"
-                }
-            },
-            "call_config": {
-                "no_op": "CALL"
-            }
+  "hints": {
+    "struct_meth((uint64,uint32))void": {
+      "structs": {
+        "thing": {
+          "name": "Thing",
+          "elements": [
+            [
+              "a",
+              "uint64"
+            ],
+            [
+              "b",
+              "uint32"
+            ]
+          ]
         }
+      },
+      "call_config": {
+        "no_op": "CALL"
+      }
     },
-    "source": {
-        "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDYKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHhlZjVjZGY4YyAvLyAic3RydWN0X21ldGgoKHVpbnQ2NCx1aW50MzIpKXZvaWQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4MzQ4M2NkZDggLy8gImRlZmF1bHRfZ2xvYmFsX3N0YXRlKHVpbnQ2NCl2b2lkIgo9PQpibnogbWFpbl9sNAplcnIKbWFpbl9sNDoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBkZWZhdWx0Z2xvYmFsc3RhdGVjYXN0ZXJfMwppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNToKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBzdHJ1Y3RtZXRoY2FzdGVyXzIKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KYm56IG1haW5fbDgKZXJyCm1haW5fbDg6CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCj09CmFzc2VydAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIHN0cnVjdF9tZXRoCnN0cnVjdG1ldGhfMDoKcHJvdG8gMSAwCmludGNfMSAvLyAxCnJldHVybgoKLy8gZGVmYXVsdF9nbG9iYWxfc3RhdGUKZGVmYXVsdGdsb2JhbHN0YXRlXzE6CnByb3RvIDEgMAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIHN0cnVjdF9tZXRoX2Nhc3RlcgpzdHJ1Y3RtZXRoY2FzdGVyXzI6CnByb3RvIDAgMApwdXNoYnl0ZXMgMHggLy8gIiIKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQpmcmFtZV9idXJ5IDAKZnJhbWVfZGlnIDAKY2FsbHN1YiBzdHJ1Y3RtZXRoXzAKcmV0c3ViCgovLyBkZWZhdWx0X2dsb2JhbF9zdGF0ZV9jYXN0ZXIKZGVmYXVsdGdsb2JhbHN0YXRlY2FzdGVyXzM6CnByb3RvIDAgMAppbnRjXzAgLy8gMAp0eG5hIEFwcGxpY2F0aW9uQXJncyAxCmJ0b2kKZnJhbWVfYnVyeSAwCmZyYW1lX2RpZyAwCmNhbGxzdWIgZGVmYXVsdGdsb2JhbHN0YXRlXzEKcmV0c3Vi",
-        "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
-    },
-    "state": {
-        "global": {
-            "num_byte_slices": 0,
-            "num_uints": 1
-        },
-        "local": {
-            "num_byte_slices": 0,
-            "num_uints": 1
+    "default_global_state(uint64)void": {
+      "default_arguments": {
+        "value": {
+          "source": "global-state",
+          "data": "decl_global_val"
         }
-    },
-    "schema": {
-        "global": {
-            "declared": {
-                "decl_global_val": {
-                    "type": "uint64",
-                    "key": "decl_global_val",
-                    "descr": ""
-                }
-            },
-            "reserved": {}
-        },
-        "local": {
-            "declared": {
-                "decl_local_val": {
-                    "type": "uint64",
-                    "key": "decl_local_val",
-                    "descr": ""
-                }
-            },
-            "reserved": {}
-        }
-    },
-    "contract": {
-        "name": "PartialSpec",
-        "methods": [
-            {
-                "name": "struct_meth",
-                "args": [
-                    {
-                        "type": "(uint64,uint32)",
-                        "name": "thing"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            },
-            {
-                "name": "default_global_state",
-                "args": [
-                    {
-                        "type": "uint64",
-                        "name": "value"
-                    }
-                ],
-                "returns": {
-                    "type": "void"
-                }
-            }
-        ],
-        "networks": {}
-    },
-    "bare_call_config": {
-        "no_op": "CREATE"
+      },
+      "call_config": {
+        "no_op": "CALL"
+      }
     }
+  },
+  "source": {
+    "approval": "I3ByYWdtYSB2ZXJzaW9uIDEwCmludGNibG9jayAwIDEKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDYKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHhlZjVjZGY4YyAvLyAic3RydWN0X21ldGgoKHVpbnQ2NCx1aW50MzIpKXZvaWQiCj09CmJueiBtYWluX2w1CnR4bmEgQXBwbGljYXRpb25BcmdzIDAKcHVzaGJ5dGVzIDB4MzQ4M2NkZDggLy8gImRlZmF1bHRfZ2xvYmFsX3N0YXRlKHVpbnQ2NCl2b2lkIgo9PQpibnogbWFpbl9sNAplcnIKbWFpbl9sNDoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBkZWZhdWx0Z2xvYmFsc3RhdGVjYXN0ZXJfMwppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNToKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBzdHJ1Y3RtZXRoY2FzdGVyXzIKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KYm56IG1haW5fbDgKZXJyCm1haW5fbDg6CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCj09CmFzc2VydAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIHN0cnVjdF9tZXRoCnN0cnVjdG1ldGhfMDoKcHJvdG8gMSAwCmludGNfMSAvLyAxCnJldHVybgoKLy8gZGVmYXVsdF9nbG9iYWxfc3RhdGUKZGVmYXVsdGdsb2JhbHN0YXRlXzE6CnByb3RvIDEgMAppbnRjXzEgLy8gMQpyZXR1cm4KCi8vIHN0cnVjdF9tZXRoX2Nhc3RlcgpzdHJ1Y3RtZXRoY2FzdGVyXzI6CnByb3RvIDAgMApwdXNoYnl0ZXMgMHggLy8gIiIKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQpmcmFtZV9idXJ5IDAKZnJhbWVfZGlnIDAKY2FsbHN1YiBzdHJ1Y3RtZXRoXzAKcmV0c3ViCgovLyBkZWZhdWx0X2dsb2JhbF9zdGF0ZV9jYXN0ZXIKZGVmYXVsdGdsb2JhbHN0YXRlY2FzdGVyXzM6CnByb3RvIDAgMAppbnRjXzAgLy8gMAp0eG5hIEFwcGxpY2F0aW9uQXJncyAxCmJ0b2kKZnJhbWVfYnVyeSAwCmZyYW1lX2RpZyAwCmNhbGxzdWIgZGVmYXVsdGdsb2JhbHN0YXRlXzEKcmV0c3Vi",
+    "clear": "I3ByYWdtYSB2ZXJzaW9uIDEwCnB1c2hpbnQgMCAvLyAwCnJldHVybg=="
+  },
+  "state": {
+    "global": {
+      "num_byte_slices": 0,
+      "num_uints": 1
+    },
+    "local": {
+      "num_byte_slices": 0,
+      "num_uints": 1
+    }
+  },
+  "schema": {
+    "global": {
+      "declared": {
+        "decl_global_val": {
+          "type": "uint64",
+          "key": "decl_global_val",
+          "descr": ""
+        }
+      },
+      "reserved": {}
+    },
+    "local": {
+      "declared": {
+        "decl_local_val": {
+          "type": "uint64",
+          "key": "decl_local_val",
+          "descr": ""
+        }
+      },
+      "reserved": {}
+    }
+  },
+  "contract": {
+    "name": "PartialSpec",
+    "methods": [
+      {
+        "name": "struct_meth",
+        "args": [
+          {
+            "type": "(uint64,uint32)",
+            "name": "thing"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      },
+      {
+        "name": "default_global_state",
+        "args": [
+          {
+            "type": "uint64",
+            "name": "value"
+          }
+        ],
+        "returns": {
+          "type": "void"
+        }
+      }
+    ],
+    "networks": {}
+  },
+  "bare_call_config": {
+    "no_op": "CREATE"
+  }
 }

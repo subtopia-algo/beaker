@@ -1,6 +1,7 @@
 import inspect
 import subprocess
 from collections.abc import Iterator
+import json
 from pathlib import Path
 
 import pytest
@@ -47,6 +48,13 @@ def check_application_artifacts_output_stability(
 
     output_dir_str = str(output_dir.resolve())
     spec.export(output_dir)
+    ## format exported json with format_json
+    for file in output_dir.glob("*.json"):
+        with open(file, "r") as f:
+            data = json.load(f)
+        with open(file, "w") as f:
+            json.dump(data, f, indent=2)
+
     assert output_dir.is_dir()
     git_diff = subprocess.run(
         [

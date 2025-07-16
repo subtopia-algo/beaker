@@ -1,25 +1,25 @@
 {
-    "name": "SortedIntegers",
-    "methods": [
+  "name": "SortedIntegers",
+  "methods": [
+    {
+      "name": "add_int",
+      "args": [
         {
-            "name": "add_int",
-            "args": [
-                {
-                    "type": "uint64",
-                    "name": "val"
-                }
-            ],
-            "returns": {
-                "type": "uint64[]"
-            }
-        },
-        {
-            "name": "box_create_test",
-            "args": [],
-            "returns": {
-                "type": "void"
-            }
+          "type": "uint64",
+          "name": "val"
         }
-    ],
-    "networks": {}
+      ],
+      "returns": {
+        "type": "uint64[]"
+      }
+    },
+    {
+      "name": "box_create_test",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ],
+  "networks": {}
 }
